@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h1, #nav, #hero, #menu-items, #about-us, #main-course, #contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#about, #menu-items, #main-course, #about-us, #contact-us {
+    flex-direction: column;
+    font-family: 'Bebas Neue';
+}
+
+#nav > button {
+    font-size: 18px;
+    background: none;
+    border: 1px solid;
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+}
+
+#nav > button:active {
+    background-color: #00CCC0;
+    border: 1px #000000 solid;
+  }
+
+#tonkatsu {
+    width: 50vw;
+    height: auto;
+}
+

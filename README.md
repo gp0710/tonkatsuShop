@@ -1,6 +1,6 @@
 # tonkatsuShop
 
-##Further Development
+## Further Development
 Strange weird, when I add eventlisteners to HTML, toggling between content via the click of the buttons works, but when added to the script, it does not work.
 
 I built a restaurant page using Webpack. Still a work in progress, but wanted to push to GitHub first.
